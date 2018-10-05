@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		FFB7000A2166D21300244565 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB700092166D21300244565 /* AppDelegate.swift */; };
-		FFB7000C2166D21300244565 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7000B2166D21300244565 /* ViewController.swift */; };
 		FFB7000F2166D21300244565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB7000D2166D21300244565 /* Main.storyboard */; };
 		FFB700112166D21500244565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB700102166D21500244565 /* Assets.xcassets */; };
 		FFB700142166D21500244565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB700122166D21500244565 /* LaunchScreen.storyboard */; };
+		FFB7001C2166D59500244565 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7001B2166D59500244565 /* SwitchingViewController.swift */; };
+		FFB7001E2166D9CE00244565 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7001D2166D9CE00244565 /* BlueViewController.swift */; };
+		FFB700202166D9E000244565 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7001F2166D9E000244565 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FFB700062166D21300244565 /* MAPD714-F2018-Lesson5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD714-F2018-Lesson5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB700092166D21300244565 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFB7000B2166D21300244565 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FFB7000E2166D21300244565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFB700102166D21500244565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFB700132166D21500244565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFB700152166D21500244565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB7001B2166D59500244565 /* SwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		FFB7001D2166D9CE00244565 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		FFB7001F2166D9E000244565 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +51,9 @@
 			isa = PBXGroup;
 			children = (
 				FFB700092166D21300244565 /* AppDelegate.swift */,
-				FFB7000B2166D21300244565 /* ViewController.swift */,
+				FFB7001B2166D59500244565 /* SwitchingViewController.swift */,
+				FFB7001D2166D9CE00244565 /* BlueViewController.swift */,
+				FFB7001F2166D9E000244565 /* YellowViewController.swift */,
 				FFB7000D2166D21300244565 /* Main.storyboard */,
 				FFB700102166D21500244565 /* Assets.xcassets */,
 				FFB700122166D21500244565 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFB7000C2166D21300244565 /* ViewController.swift in Sources */,
+				FFB700202166D9E000244565 /* YellowViewController.swift in Sources */,
 				FFB7000A2166D21300244565 /* AppDelegate.swift in Sources */,
+				FFB7001E2166D9CE00244565 /* BlueViewController.swift in Sources */,
+				FFB7001C2166D59500244565 /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
